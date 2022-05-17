@@ -1,3 +1,26 @@
+
+## api dir 
+    => moviesApi.ts : 
+       appel de l'api pour le get des movies et un map pour renommer les champs retournés. 
+## components directory 
+    => Card : un composant pour afficher  le poster / le nom / la date de sortie / la note et la description du film qu'il reçoit en props (ou de la série). Pour la description elle est affichée une fois on fait un hover sur la 'Card' 
+      => un snapshot test 
+
+    => Movies : component qui map sur Card pour afficher les films
+
+## interfaces dir 
+    => contient les interfaces à importer dans les autres composants 
+
+## mocks dir 
+    => pour les mocks data 
+    => mock des services en utilisant MWS ( mock service worker )
+    => setup server 
+
+## 
+    => j'ai choisi d'utiliser useContext pour rendre la data movies accéssible sans passer par les props
+
+    => un fichier setupTests.tsx est mis en place également 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
