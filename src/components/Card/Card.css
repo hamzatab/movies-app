@@ -1,0 +1,63 @@
+.card {
+    width: 325px;
+    margin: 1rem;
+    position: relative;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+.cardImage {
+    height: 430px;
+    background-color: beige;
+    overflow-y: hidden;
+    position: relative;
+    background-color: black;
+}
+
+.cardImage>img {
+    width: 100%;
+    transition: all ease-in 0.2s;
+}
+
+
+.cardOverview {
+    top: 0;
+    opacity: 0;
+    height: 100%;
+    padding: 0.5rem;
+    position: absolute;
+    color: white;
+    background-color: #333533;
+    transition: all ease-in 0.3s;
+}
+
+.card:hover .cardImage>img {
+    opacity: 0.3;
+    transform: scale(1.1);
+}
+
+.card:hover .cardOverview {
+    opacity: 1;
+}
+
+.cardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+}
+
+.cardHeaderName {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.cardHeaderRating {
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color: #343533;
+    color: red;
+    border-radius: 10px;
+}

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="card"
+  >
+    <div
+      class="cardHeader"
+    >
+      <div
+        class="cardHeaderName"
+      >
+        test movie (2022)
+      </div>
+      <div
+        class="cardHeaderRating"
+      >
+        8
+      </div>
+    </div>
+    <div
+      class="cardImage"
+    >
+      <img
+        alt="test movie"
+      />
+      <div
+        class="cardOverview"
+      >
+        overview
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
